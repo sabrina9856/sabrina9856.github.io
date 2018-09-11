@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CV</title>
+
+</head>
+<body>
+
+
+    <h1>Curriculum Vitae</h1>
+    <p>Sabrina Rahman</p>
+    <address>
+        <p>5517 Coolbrook</p>
+        <p>Montreal, Quebec, H3X 2L</p>
+    </address>
+    <p><a href="mailto:sabrina-rahman98@hotmail.com">sabrina-rahman98@hotmail.com</a></p> 
+    <p><a href="tel:514-572-3996">514-572-3996</a> </p>
+
+<ul>
+    <?php foreach($posts as $post): ?>
+        <li><?php echo $post->title; ?></li>
+    <?php endforeach; ?>
+</ul>
+
+    <main>
+        <h2>Employment / Work experience</h2>
+        <ul>
+            <li>November 16 - 
+                <ul>
+                    <li>Barista at Starbucks</li>
+		            <li>Serve and connect with customers</li>
+                </ul>
+            </li>
+            <li>August 2015 - November 2016</li>
+            <p>Cashier at Wendy's</p>
+            <p>Worked as a sandwich maker in addition</p>
+            <li>October 2014 - May 2015</li>
+            <p> Volunteer assistant at a primary school in Little Burgundy</p>
+            <p> Helped children every friday for an after school art program</p>
+            <li>June 2013 - August 2013</li> 
+            <p>Camp CIT, Macdonald Day Camp</p>
+            <p>Worked with children from the ages of 5-7 and 11-13</p>
+            <li>September 2013 - June 2015</li>
+            <p>Volunteer, Villa Maria Library</p>
+            <p>Assisted the librarians when needed</p>
+        </ul>
+        <h3>References</h3>
+        <ul>
+            <li>Dave McBean, (514) -910 - 6824</li>
+            <li>Alexa Marsden, (514) - 483- 0010</li>
+            <li>Chadli Paquiot, (514) - 983 - 4625</li>
+        </ul>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
